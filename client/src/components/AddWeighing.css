@@ -1,0 +1,21 @@
+.add-weighing{
+    display: grid;
+    position: relative;
+    margin-top: 70px;
+    height: 100px;
+    justify-content: space-evenly;
+    margin-right:1100px;
+    bottom: 50px;
+}
+
+#date-picker{
+    width: 100px;
+    /* margin-bottom: 100px; */
+    background-color: aqua;
+}
+#weight-input{
+    display: inline;
+    position: relative;
+    width: 50px;
+ 
+}
