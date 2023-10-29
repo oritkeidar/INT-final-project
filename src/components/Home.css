@@ -1,0 +1,92 @@
+
+.home-container {
+  width: 100%;
+  overflow: hidden;
+  font-size: 18px;
+  text-align: left;
+}
+.App-header {
+  background-color: #3257ae;
+  min-height: 100vh;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center; 
+   justify-content: center; 
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-logo {
+
+  height: 200px;
+  width: 250px;
+  pointer-events: none;
+  margin-top: 50px;
+ margin-left: 42%;
+
+}
+
+.App-data{
+  font-size: 25px;
+  font-weight: bold;
+display: flex;
+position: relative;
+justify-content: center;
+bottom: 50px;
+}
+.home-container .background-image{
+  position: absolute;
+  align-content: center;
+  width: 100%;
+  opacity: 50%;
+  height: 500px
+}
+
+.home-container .element .left-container{
+  margin-top: 530px;
+  display: block;
+  margin-right: 180px;
+  color: rgb(6, 1, 1);
+  width: 50%;
+  justify-content: space-evenly;
+  /* margin-left:143px; */
+  text-align: center;
+}
+.home-container .element .right-container{
+  display: block;
+  /* position: relative; */
+  color: rgb(19, 10, 10);
+  /* width:600px; */
+  justify-content: space-evenly; 
+  /* padding: 12px; */
+  text-align: left;
+  width: 50%;
+  margin-left:200px;
+  /* direction: rtl; */
+  /* right:194px; */
+}
+.element {
+  /* Each element takes 50% width */
+   float: right;
+
+ /* box-sizing: border-box; 
+  border: 1px solid #ccc;  */
+}
+.start{
+    font-size: 32px;
+    font-weight: bold;
+}
+.final{
+  
+  /* position: absolute; */
+  /* margin-bottom: 150px; */
+  margin-left:180px;
+  margin-right:180px;
+    text-align: center;
+    color: rgb(8, 1, 1);
+    font-size: 30px;
+    font-weight: bold;
+    
+  
+}
