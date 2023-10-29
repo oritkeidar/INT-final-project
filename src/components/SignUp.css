@@ -1,0 +1,23 @@
+@keyframes flicker {
+  0%, 100% {
+    opacity: 5;
+    visibility: visible;
+  }
+  50% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.sign-up {
+  margin-top: 250px;
+}
+#have-account{
+  color: rgba(39, 12, 244, 0.664);
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  position: relative;
+
+  margin-left: 120px;
+}

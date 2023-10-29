@@ -1,0 +1,32 @@
+.rbc-calendar-title {
+  display: none; /* or set custom styles */
+}
+
+.rbc-calendar {
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+.rbc-header {
+  font-size: 15px;
+  font-weight: bold;
+}
+.rbc-header .rbc-toolbar .rbc-toolbar-label {
+  font-size: 20px; /* Change the font size as needed */
+  font-weight: bold; /* Optionally, change the font weight */
+}
+.rbc-event {
+  background-color: rgb(25, 25, 28);
+  border: 1px solid black;
+  font-size: 12px;
+}
+
+.current-date-cell {
+  background-color: rgb(
+    189,
+    198,
+    25
+  ); /* Change to your desired background color */
+  border-color: rgb(12, 12, 12); /* Change to your desired border color */
+  color: black; /* Change to your desired text color */
+}
